@@ -27,6 +27,6 @@ def blog():
 def resume():
     return render_template('resume.html')
 
-
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True,host="0.0.0.0",port = 5000)
 
