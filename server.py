@@ -22,8 +22,8 @@ def about():
 @app.route('/blog.html')
 def blog():
     return render_template('blog.html')
-@app.route('/resume.html')
 
+@app.route('/resume.html')
 def resume():
     return render_template('resume.html')
 
