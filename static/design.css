@@ -5447,7 +5447,28 @@ body.minimal {
     display: table-cell
 }
 
-.white-text-container h1,
+.white-text-container h1{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    background: linear-gradient(90deg,#fff,#7CB9E8,#002244,#00CED1,#00FFFF,#1da1f2,#0C2340);
+    background-size: 400%;
+    font-size: 70px;
+
+    
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
+}
+@keyframes animate {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+    
+}
 .white-text-container h2,
 .white-text-container h3,
 .white-text-container h4,
@@ -5494,7 +5515,8 @@ body.minimal {
 .background-image-container {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top
+    background-position: top;
+    
 }
 
 .btn {
