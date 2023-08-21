@@ -5559,11 +5559,14 @@ body.minimal {
 
 body,
 p {
-    background: linear-gradient(45deg,#7CB9E8,#002244,#00CED1,#00FFFF,#1da1f2,#0C2340);
     color: #fff;
     font-weight: 300;
     letter-spacing: .8px;
     line-height: 25px
+}
+body{
+    background: linear-gradient(45deg,black,#222);
+    
 }
 
 p {
