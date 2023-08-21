@@ -1,15 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
-
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -5451,14 +5441,14 @@ body.minimal {
     position: absolute;
     top: 35%;
     left: 20%;
-    background: linear-gradient(90deg,#fff,#7CB9E8,#002244,#00CED1,#00FFFF,#1da1f2,#0C2340);
+    background: linear-gradient(45deg,#fff,#7CB9E8,#002244,#00CED1,#00FFFF,#1da1f2,#0C2340);
     background-size: 400%;
     font-size: 70px;
 
     
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    animation: animate 15s linear infinite;
+    animation: animate 30s ease infinite;
 }
 @keyframes animate {
     0%{
