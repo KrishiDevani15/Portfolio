@@ -5441,7 +5441,7 @@ body.minimal {
     position: absolute;
     top: 35%;
     left: 20%;
-    background: linear-gradient(45deg,#fff,#7CB9E8,#002244,#00CED1,#00FFFF,#1da1f2,#0C2340);
+    background: linear-gradient(45deg,#7CB9E8,#002244,#00CED1,#00FFFF,#1da1f2,#0C2340);
     background-size: 400%;
     font-size: 70px;
 
