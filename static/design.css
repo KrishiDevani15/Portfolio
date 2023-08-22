@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -415,7 +418,7 @@ h6 {
     font-family: Roboto Mono, Helvetica, Arial, sans-serif;
     font-weight: 700;
     line-height: 1.1;
-    color: powderblue;
+    color: #000
 }
 
 .h1 .small,
@@ -2704,11 +2707,16 @@ textarea.input-lg {
 .btn.disabled,
 .btn[disabled],
 fieldset[disabled] .btn {
-    cursor: not-allowed;
-    opacity: .65;
-    filter: alpha(opacity=65);
-    -webkit-box-shadow: none;
-    box-shadow: none
+    cursor: url('../static/assets/images/logo.svg'), auto;
+    background: rgb(27,27,27)
+    
+}
+.cursor{
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
 }
 
 a.btn.disabled,
@@ -3273,7 +3281,15 @@ tbody.collapse.in {
     background-color: transparent;
     background-image: none;
     filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
-    cursor: not-allowed
+    cursor: url('../static/assets/images/logo.svg'), auto;
+    background: rgb(27,27,27)
+}
+.cursor{
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
 }
 
 .open>.dropdown-menu {
@@ -5417,7 +5433,7 @@ body.minimal {
 }
 
 .hero-full-container {
-    height: 100vh
+    height: 100pc
 }
 
 .hero-full-container h1 {
@@ -5441,14 +5457,14 @@ body.minimal {
     position: absolute;
     top: 35%;
     left: 20%;
-    background: linear-gradient(45deg,#7CB9E8,#002244,#00CED1,#00FFFF,#1da1f2,#0C2340);
+    background: linear-gradient(90deg,#fff,#7CB9E8,#002244,#00CED1,#00FFFF,#1da1f2,#0C2340);
     background-size: 400%;
     font-size: 70px;
 
     
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    animation: animate 30s ease infinite;
+    animation: animate 15s linear infinite;
 }
 @keyframes animate {
     0%{
@@ -5507,6 +5523,7 @@ body.minimal {
     background-repeat: no-repeat;
     background-position: top;
     
+    
 }
 
 .btn {
@@ -5559,14 +5576,9 @@ body.minimal {
 
 body,
 p {
-    color: #fff;
     font-weight: 300;
     letter-spacing: .8px;
     line-height: 25px
-}
-body{
-    background: linear-gradient(45deg,black,#222);
-    
 }
 
 p {
@@ -5622,8 +5634,7 @@ h2:after {
 h1,
 h2,
 h3 {
-    margin-bottom: 20px;
-    color: powderblue;
+    margin-bottom: 20px
 }
 
 blockquote {
@@ -5943,3 +5954,5 @@ textarea {
 }
 
 
+
+/*# sourceMappingURL=main.70a66962.map*/
