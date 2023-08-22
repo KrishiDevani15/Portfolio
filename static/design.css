@@ -5464,7 +5464,7 @@ body.minimal {
     
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    animation: animate 15s linear infinite;
+    animation: animate 15s ease infinity;
 }
 @keyframes animate {
     0%{
