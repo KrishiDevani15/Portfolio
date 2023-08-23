@@ -942,8 +942,8 @@ pre code {
 }
 
 .row {
-    margin-left: 35px;
-    margin-right: 35px
+    margin-left: -15px;
+    margin-right: -15px
 }
 
 .row:after,
